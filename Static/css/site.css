@@ -261,6 +261,54 @@ body {
   font-size: 16px;
   color: #ff8a3d;
 }
+
+@media (max-width: 980px) {
+  .site-header .bar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .logo {
+    order: 1;
+  }
+  .callout {
+    order: 2;
+  }
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 640px) {
+  .site-header .bar {
+    padding: 12px 14px;
+    gap: 12px;
+  }
+  .logo {
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .logo-mark {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+  .nav a {
+    font-size: 14px;
+  }
+  .callout {
+    width: 100%;
+    justify-content: center;
+    padding: 10px 12px;
+  }
+  .callout .number {
+    font-size: 15px;
+  }
+}
 .wrap {
   min-height: 70vh;
   display: grid;
@@ -754,6 +802,17 @@ p {
   }
   .site-footer .inner {
     grid-template-columns: 1fr;
+  }
+  .site-footer .brand {
+    align-items: center;
+    text-align: center;
+  }
+  .site-footer .brand img {
+    width: 120px;
+    height: 120px;
+  }
+  .site-footer .brand span {
+    letter-spacing: 0.08em;
   }
   .site-footer .links,
   .site-footer .services {
