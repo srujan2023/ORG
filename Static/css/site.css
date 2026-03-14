@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: \"Segoe UI\", Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
   background: #f7f7f7;
   color: #222;
 }
@@ -15,7 +15,7 @@ body {
       rgba(31, 39, 44, 0.85),
       rgba(31, 39, 44, 0.85)
     ),
-    url(\"https://im814.com/wp-content/uploads/2023/12/unlocking-the-power-of-automation-with-gohighlevel-980x980.png\");
+    url(https://im814.com/wp-content/uploads/2023/12/unlocking-the-power-of-automation-with-gohighlevel-980x980.png);
   background-size: cover;
   background-position: center;
   color: #f5f7f8;
@@ -186,4 +186,6 @@ body {
   margin: 0 auto;
   padding: 16px 20px;
   display: flex;
-  align-items: 
+  align-items: center;
+  justify-content: space-between;
+}
